@@ -1,1 +1,3 @@
-# Online-marketing-data-segmentation
+# Here i tried to segment the data into different clusters and identify any important patterns in it. For clustering i used k-means and uses many tests like anova, chi_squared, pearson correlations to understand the affect of features on each other. this repository consists of two notebooks. 
+1. (online marketing segementation part 1.ipynb) - We tried to find patterns using plain simple data by one-hot encoding them and removing the outliers.
+2. (Online marketing segmentation (Using LLM) part 2.ipynb) - We tried to cluster using the sentence embeddings (LLM) of all the rows. This gave more details about the data and better results which you can check. 
